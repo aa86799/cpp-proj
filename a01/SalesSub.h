@@ -23,7 +23,7 @@ public:
     virtual std::string isbn(); // 父类中被重写的方法必须是 virtual 的, 仅是继承使用 不需要;  同时子类需要相同的定义
 //    virtual std::string Sales::isbn2(); //父类函数是final的， 不可被重写。
 
-    using Sales::weight;
+    using Sales::weight; //更改基类属性为 public
     void destroy();
 };
 #endif //CPPPROJ_SALESSUB_H
