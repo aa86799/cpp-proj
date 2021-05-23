@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/stone/CLionProjects/cpp-proj/a01/Sales.cpp
-Sales.h
-/Users/stone/CLionProjects/cpp-proj/a01/Sales.h
-iostream
--
-
 /Users/stone/CLionProjects/cpp-proj/a01/Sales.h
 string
 -
