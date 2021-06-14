@@ -1,6 +1,7 @@
 //
 // Created by austin stone on 2021/4/25.
 //
+#include <string>
 using namespace std;
 struct StructSales {
     string bookNo;
@@ -9,7 +10,8 @@ struct StructSales {
     string isbn() const {
         return bookNo;
     }
-    StructSales& combine(const StructSales&);
+    StructSales * combine(const StructSales&);
+    StructSales& combine2(const StructSales&);
     double avg_price() const;
 };
 /*
@@ -17,16 +19,23 @@ struct StructSales {
  * 此时，通过this调用的成员函数，就是常量成员函数。
  * 常量对象，及常量对象的指针或引用只能调用常量成员函数。
  */
-
-//在struct 外部定义成员函数
+//在struct 类外部定义成员函数
 double StructSales::avg_price() const {
+//    this->sold = 8; // error
     if (this->sold) return revenue / sold;
     else return 0;
 }
 
-//this 属性加上 rhs 属性，返回this
-StructSales & StructSales::combine(const StructSales &rhs) {
+//this 属性加上 rhs 属性，返回 this 指针
+StructSales * StructSales::combine(const StructSales &rhs) {
     this->sold += rhs.sold;
     this->revenue += rhs.revenue;
     return this;
+}
+
+//this 属性加上 rhs 属性，返回 this 指向实例的引用
+StructSales & StructSales::combine2(const StructSales &rhs) {
+    this->sold += rhs.sold;
+    this->revenue += rhs.revenue;
+    return *this;
 }

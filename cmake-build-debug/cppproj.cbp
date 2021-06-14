@@ -80,16 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/stone/CLionProjects/cpp-proj/a01/Sales.cpp">
-			<Option target="cppproj"/>
-		</Unit>
-		<Unit filename="/Users/stone/CLionProjects/cpp-proj/a01/Sales.h">
-			<Option target="cppproj"/>
-		</Unit>
-		<Unit filename="/Users/stone/CLionProjects/cpp-proj/a01/SalesSub.cpp">
-			<Option target="cppproj"/>
-		</Unit>
-		<Unit filename="/Users/stone/CLionProjects/cpp-proj/a01/SalesSub.h">
+		<Unit filename="/Users/stone/CLionProjects/cpp-proj/a01/StructSales.cpp">
 			<Option target="cppproj"/>
 		</Unit>
 		<Unit filename="/Users/stone/CLionProjects/cpp-proj/CMakeLists.txt">

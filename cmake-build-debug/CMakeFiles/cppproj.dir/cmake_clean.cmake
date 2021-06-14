@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cppproj.dir/a01/Sales.cpp.o"
-  "CMakeFiles/cppproj.dir/a01/SalesSub.cpp.o"
+  "CMakeFiles/cppproj.dir/a01/StructSales.cpp.o"
   "cppproj"
   "cppproj.pdb"
 )

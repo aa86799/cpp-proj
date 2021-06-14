@@ -142,59 +142,32 @@ cppproj/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/build
 .PHONY : cppproj/fast
 
-a01/Sales.o: a01/Sales.cpp.o
+a01/StructSales.o: a01/StructSales.cpp.o
 
-.PHONY : a01/Sales.o
-
-# target to build an object file
-a01/Sales.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/a01/Sales.cpp.o
-.PHONY : a01/Sales.cpp.o
-
-a01/Sales.i: a01/Sales.cpp.i
-
-.PHONY : a01/Sales.i
-
-# target to preprocess a source file
-a01/Sales.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/a01/Sales.cpp.i
-.PHONY : a01/Sales.cpp.i
-
-a01/Sales.s: a01/Sales.cpp.s
-
-.PHONY : a01/Sales.s
-
-# target to generate assembly for a file
-a01/Sales.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/a01/Sales.cpp.s
-.PHONY : a01/Sales.cpp.s
-
-a01/SalesSub.o: a01/SalesSub.cpp.o
-
-.PHONY : a01/SalesSub.o
+.PHONY : a01/StructSales.o
 
 # target to build an object file
-a01/SalesSub.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/a01/SalesSub.cpp.o
-.PHONY : a01/SalesSub.cpp.o
+a01/StructSales.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/a01/StructSales.cpp.o
+.PHONY : a01/StructSales.cpp.o
 
-a01/SalesSub.i: a01/SalesSub.cpp.i
+a01/StructSales.i: a01/StructSales.cpp.i
 
-.PHONY : a01/SalesSub.i
+.PHONY : a01/StructSales.i
 
 # target to preprocess a source file
-a01/SalesSub.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/a01/SalesSub.cpp.i
-.PHONY : a01/SalesSub.cpp.i
+a01/StructSales.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/a01/StructSales.cpp.i
+.PHONY : a01/StructSales.cpp.i
 
-a01/SalesSub.s: a01/SalesSub.cpp.s
+a01/StructSales.s: a01/StructSales.cpp.s
 
-.PHONY : a01/SalesSub.s
+.PHONY : a01/StructSales.s
 
 # target to generate assembly for a file
-a01/SalesSub.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/a01/SalesSub.cpp.s
-.PHONY : a01/SalesSub.cpp.s
+a01/StructSales.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppproj.dir/build.make CMakeFiles/cppproj.dir/a01/StructSales.cpp.s
+.PHONY : a01/StructSales.cpp.s
 
 # Help Target
 help:
@@ -205,12 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cppproj"
-	@echo "... a01/Sales.o"
-	@echo "... a01/Sales.i"
-	@echo "... a01/Sales.s"
-	@echo "... a01/SalesSub.o"
-	@echo "... a01/SalesSub.i"
-	@echo "... a01/SalesSub.s"
+	@echo "... a01/StructSales.o"
+	@echo "... a01/StructSales.i"
+	@echo "... a01/StructSales.s"
 .PHONY : help
 
 

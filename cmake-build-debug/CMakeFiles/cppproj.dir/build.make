@@ -76,45 +76,30 @@ include CMakeFiles/cppproj.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cppproj.dir/flags.make
 
-CMakeFiles/cppproj.dir/a01/Sales.cpp.o: CMakeFiles/cppproj.dir/flags.make
-CMakeFiles/cppproj.dir/a01/Sales.cpp.o: ../a01/Sales.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stone/CLionProjects/cpp-proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppproj.dir/a01/Sales.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppproj.dir/a01/Sales.cpp.o -c /Users/stone/CLionProjects/cpp-proj/a01/Sales.cpp
+CMakeFiles/cppproj.dir/a01/StructSales.cpp.o: CMakeFiles/cppproj.dir/flags.make
+CMakeFiles/cppproj.dir/a01/StructSales.cpp.o: ../a01/StructSales.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stone/CLionProjects/cpp-proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppproj.dir/a01/StructSales.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppproj.dir/a01/StructSales.cpp.o -c /Users/stone/CLionProjects/cpp-proj/a01/StructSales.cpp
 
-CMakeFiles/cppproj.dir/a01/Sales.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppproj.dir/a01/Sales.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stone/CLionProjects/cpp-proj/a01/Sales.cpp > CMakeFiles/cppproj.dir/a01/Sales.cpp.i
+CMakeFiles/cppproj.dir/a01/StructSales.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppproj.dir/a01/StructSales.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stone/CLionProjects/cpp-proj/a01/StructSales.cpp > CMakeFiles/cppproj.dir/a01/StructSales.cpp.i
 
-CMakeFiles/cppproj.dir/a01/Sales.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppproj.dir/a01/Sales.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stone/CLionProjects/cpp-proj/a01/Sales.cpp -o CMakeFiles/cppproj.dir/a01/Sales.cpp.s
-
-CMakeFiles/cppproj.dir/a01/SalesSub.cpp.o: CMakeFiles/cppproj.dir/flags.make
-CMakeFiles/cppproj.dir/a01/SalesSub.cpp.o: ../a01/SalesSub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stone/CLionProjects/cpp-proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cppproj.dir/a01/SalesSub.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppproj.dir/a01/SalesSub.cpp.o -c /Users/stone/CLionProjects/cpp-proj/a01/SalesSub.cpp
-
-CMakeFiles/cppproj.dir/a01/SalesSub.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppproj.dir/a01/SalesSub.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stone/CLionProjects/cpp-proj/a01/SalesSub.cpp > CMakeFiles/cppproj.dir/a01/SalesSub.cpp.i
-
-CMakeFiles/cppproj.dir/a01/SalesSub.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppproj.dir/a01/SalesSub.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stone/CLionProjects/cpp-proj/a01/SalesSub.cpp -o CMakeFiles/cppproj.dir/a01/SalesSub.cpp.s
+CMakeFiles/cppproj.dir/a01/StructSales.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppproj.dir/a01/StructSales.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stone/CLionProjects/cpp-proj/a01/StructSales.cpp -o CMakeFiles/cppproj.dir/a01/StructSales.cpp.s
 
 # Object files for target cppproj
 cppproj_OBJECTS = \
-"CMakeFiles/cppproj.dir/a01/Sales.cpp.o" \
-"CMakeFiles/cppproj.dir/a01/SalesSub.cpp.o"
+"CMakeFiles/cppproj.dir/a01/StructSales.cpp.o"
 
 # External object files for target cppproj
 cppproj_EXTERNAL_OBJECTS =
 
-cppproj: CMakeFiles/cppproj.dir/a01/Sales.cpp.o
-cppproj: CMakeFiles/cppproj.dir/a01/SalesSub.cpp.o
+cppproj: CMakeFiles/cppproj.dir/a01/StructSales.cpp.o
 cppproj: CMakeFiles/cppproj.dir/build.make
 cppproj: CMakeFiles/cppproj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stone/CLionProjects/cpp-proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cppproj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stone/CLionProjects/cpp-proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cppproj"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppproj.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
