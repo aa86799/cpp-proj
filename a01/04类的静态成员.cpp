@@ -4,7 +4,7 @@
 class StaticTest {
 public:
     static int a;
-    static sfunc() { //若在头文件中定义static 函数，相应源文件中的实现定义，不需要 static key。
+    static void sfunc() { //若在头文件中定义static 函数，相应源文件中的实现定义，不需要 static key。
         func()
         a = 11;
     }
