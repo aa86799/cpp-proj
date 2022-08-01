@@ -16,4 +16,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(cppproj io/c-printf-sprintf-fprintf.cpp)
 
-add_executable(cppproj a01/FriendSymbol.cpp a01/友元测试.cpp a01/OtherUser.cpp)
+#add_executable(cppproj a01/FriendSymbol.cpp a01/友元测试.cpp)
+
+add_executable(cppproj a01/WindowMgr.cpp)
