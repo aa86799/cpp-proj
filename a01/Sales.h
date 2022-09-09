@@ -20,8 +20,10 @@ public:
     Sales(); //默认(无参)构造函数
     /*explicit*/ Sales(int a); //explicit 会抑制 隐式的，形参 类 类型转换。
     Sales(std::string a, int b = 10); //参数有默认值。
+    Sales(std::string s, unsigned count, double price);
+    Sales(std::string s, unsigned count); // 委托构造函数，要在源文件中定义
     ~Sales(); // 基类中，析构必须是 public
-    void combine(Sales sales);
+    void combine(Sales &sales);
     void combine2(Sales sales);
     void add(Sales sales);
     void read();
