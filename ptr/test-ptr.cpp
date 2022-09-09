@@ -44,8 +44,7 @@ int main() {
 //    User *user = p.get();
     auto user = p.get();
     cout << user->display() << endl;
-    cout << p.use_count() << endl;
-
+    cout << p.use_count() << endl; // 1
 
     return 1;
 }
