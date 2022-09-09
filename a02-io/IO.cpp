@@ -16,7 +16,7 @@ struct Info {
 void readFile() {
     string line, word;
     vector<Info> infos;
-    ifstream ifs("/Users/stone/CLionProjects/cpp-proj/a02-io/test"); // 文件输入流
+    ifstream ifs("/Users/stone/CLionProjects/cpp-proj/a02-io/test"); // 文件输入流 input file stream
     while (getline(ifs, line)) { //读取行
         Info info;
         istringstream record(line); // 绑定line数据到 string 输入流
@@ -46,6 +46,8 @@ void readFile() {
         out << endl;
         cout << out.str(); // 输出 out流中的 所有 string
     }
+
+    sstream fffs;
 }
 
 int main() {
