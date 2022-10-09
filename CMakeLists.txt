@@ -23,4 +23,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(cppproj ptr/test-ptr.cpp)
 
-add_executable(cppproj copy-control/Message.cpp copy-control/StrVec.cpp)
+#add_executable(cppproj copy-control/Message.cpp copy-control/StrVec.cpp)
+
+add_executable(cppproj overloadop/Test.cpp overloadop/Foo.cpp)
